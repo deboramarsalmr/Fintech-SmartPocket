@@ -1,0 +1,52 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bg-green-1: #46624b;
+    --bg-gray-1: #6c757d;
+    --margin-top: 5rem
+}
+
+.navbar-toggler {
+    color: white;
+    border: none;
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-green {
+    background-color: #46624b;
+}
+
+.btn-green {
+    background-color: #46624b;
+    color: white;
+}
+
+.btn-gray {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Estilos para a imagem */
+.image-size {
+    width: 95%; 
+    height: auto; 
+}
+
+  /* Media query para telas menores que 768px */
+    @media (max-width: 767px) {
+    .image-size {
+    max-width: 45%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    }
+    }
